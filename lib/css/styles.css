@@ -1,0 +1,63 @@
+body {
+  background: #eaeaea;
+  margin: 0;
+}
+.container {
+  width: 1100px;
+  position: relative;
+}
+.container canvas {
+  background: #fff;
+  float: left;
+}
+.word-hint {
+  display: none;
+  position: absolute;
+  left: 100px;
+}
+.word-hint h1 {
+  color: red;
+  font-size: 48px;
+}
+.game-on {
+  display: none;
+}
+.game-on h2 {
+  margin: 0;
+}
+aside {
+  width: 250px;
+  border-left: 1px solid #000;
+  float: left;
+}
+aside .controls ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+aside .controls ul li {
+  width: 25px;
+  height: 25px;
+  display: block;
+  float: left;
+  margin: 5px;
+  cursor: pointer;
+}
+aside .controls ul li.red {
+  background-color: #ff0000;
+}
+aside .controls ul li.black {
+  background-color: #000000;
+}
+aside .controls ul li.green {
+  background-color: #008000;
+}
+aside .controls ul li.blue {
+  background-color: #1E90FF;
+}
+aside .controls ul li.yellow {
+  background-color: #FFFF00;
+}
+aside .controls ul li.purple {
+  background-color: #9932CC;
+}
